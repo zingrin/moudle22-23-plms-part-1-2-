@@ -1,27 +1,27 @@
-// function isLeapYear(year){
-//     if (year % 4===0){
-//         return true;
+function isLeapYear(year){
+    if (year % 4===0){
+        return true;
 
-//     }
-//     else{
-//         return false;
-//     }
-// }
-// const islipi = isLeapYear(2043);
-// // console.log(islipi)
-// // .......
-// function isLeapYear(year){
-//     if (year % 4===0){
-//         return true;
+    }
+    else{
+        return false;
+    }
+}
+const islipi = isLeapYear(2043);
+console.log(islipi)
+// .......
+function isLeapYear(year){
+    if (year % 4===0){
+        return true;
 
-//     }
-//     else{
-//         return false;
-//     }
-// }
-// const lipi = isLeapYear(2052);
-// console.log(lipi)
-// 100 diye bhaag jabe na kintu 4 diye jai
+    }
+    else{
+        return false;
+    }
+}
+const lipi = isLeapYear(2052);
+console.log(lipi)
+100 diye bhaag jabe na kintu 4 diye jai
   function isLeapYear2(year){
     if(year % 100 !==0 && year % 4===0){
         return true;
